@@ -43,9 +43,13 @@ if correct edit msg and button
 [Utopia vocher]
 [برگشت]
 then if withdrawal on  network is [USDT-Pol] and [USDT-TRC20] user must send walle addrress
-but if is [Utopia vocher] dont do anything
+but if is [Utopia vocher] dont do anything and say requst send for admin
 and transction createed to withdrawal.json on status pending then balance will update like this : balance-withdrawal amount
-
+if requst crypto [USDT-Pol] and [USDT-TRC20] is compleate send succefull msg and wallet-code
+and if requst Utopia is compleate send succefull msg and wallet-code
+if reject user must contact with admin
+and for /leaderboard <= [رتبه] /guide<=[راهنما] send is on update
+supoo
 Json example :
 user.json
 [
