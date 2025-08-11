@@ -48,4 +48,27 @@ game.josn
 ]
 
 deposit.json
+[
+    {
+     ID : like  1 2 3 4 
+     ID-Telegram : chat id user
+     Username :
+     amount
+     side : TRC20/POL/Utopia
+     information : Hash-transction/Activator-code
+     status : Pending/Accept/Reject
+    }
+]
+
 withdrawal.json
+[
+    {
+     ID : like  1 2 3 4 
+     ID-Telegram : chat id user
+     Username :
+     amount
+     side : TRC20/POL/Utopia
+     wallet-code : Hash-transction/Activator-code
+     status : Pending/Accept/Reject
+    }
+]
