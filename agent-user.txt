@@ -1,0 +1,51 @@
+A python-telegram-bot 
+Database is json
+A dies casino bot
+When user start the Bot must be join on @Topdieshistory @Topdiesbetbot then if join user can accese to bot and information is save on json file
+Have a some inlinebutton and all inline have a command
+/play <= [شروع بازی]
+[واریز] => /deposit [برداشت] => /withdrawal
+/leaderboard <= [رتبه] /guide<=[راهنما]
+/support <=[پشتيبانی]
+if user sned command /play or click on [شروع بازی] edit massage and button to this
+آپشنت چیه؟؟؟
+[2x زوج][2x فرد]
+[1 6x][2 6x]
+[3 6x][4 6x]
+[5 6x][6 6x]
+then when click user must send a bet morethen 5000 Toman
+then send a Dies emoji when send result is avaible 
+if number dies is odd and user select odd bet*2 update a balance 
+if false user lose a bet amount
+if number example 3 and user select 3 bet*6 update a balance
+if false user lose bet amount
+
+
+
+Json example :
+user.json
+[
+    {
+     ID : like  1 2 3 4 
+     ID-Telegram : chat id user
+     Username :
+     Balance :
+     Status :
+     Description :
+    }
+]
+
+game.josn
+[
+    {
+     ID : like  1 2 3 4 
+     ID-Telegram : chat id user
+     Username :
+     bet : 
+     status : win/lose
+     profit : 
+    }
+]
+
+deposit.json
+withdrawal.json
