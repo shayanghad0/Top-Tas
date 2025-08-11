@@ -111,4 +111,5 @@ Logic.json
         random : True     
     }
 ]
+wallet.json
 [{TRC20:890qya3ymf8oqkzfgqa9HKDSU89QWFU8 , POL : werj9yxf78wgo7frgwiarfsjdufgfnxvidb}]
