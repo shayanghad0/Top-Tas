@@ -19,18 +19,30 @@ if number dies is odd and user select odd bet*2 update a balance
 if false user lose a bet amount
 if number example 3 and user select 3 bet*6 update a balance
 if false user lose bet amount
+if user click on [واریز] or send /deposit edit massage to this
+چقئر باشه؟؟
+بیشتر از 100/000 هزار تومان باشه :)
+[برگشت]
+if correct edit msg and button
+[USDT-Pol][USDT-TRC20]
+[Utopia vocher]
+[برگشت]
 
-
+then if deposit is [USDT-Pol] and [USDT-TRC20] user must send screenshot Transction hash Transction and link Transction
+but if is [Utopia vocher] user must send Activator code vocher
+and transction createed to deposit.json on status pending
+if transction goes to true balance will update balance + deposit amount
+if reject deposit reject and user must contact to support
 
 Json example :
 user.json
 [
     {
-     ID : like  1 2 3 4 
-     ID-Telegram : chat id user
-     Username :
-     Balance :
-     Status :
+     ID : like  1 2 3 4 ,
+     ID-Telegram : chat id user,
+     Username :,
+     Balance :,
+     Status :,
      Description :
     }
 ]
@@ -38,11 +50,12 @@ user.json
 game.josn
 [
     {
-     ID : like  1 2 3 4 
-     ID-Telegram : chat id user
-     Username :
-     bet : 
-     status : win/lose
+     ID : like  1 2 3 4 ,
+     ID-Telegram : chat id user,
+     Username :,
+     bet : ,
+     status : win/lose,
+     date : ,
      profit : 
     }
 ]
@@ -50,12 +63,12 @@ game.josn
 deposit.json
 [
     {
-     ID : like  1 2 3 4 
-     ID-Telegram : chat id user
-     Username :
-     amount
-     side : TRC20/POL/Utopia
-     information : Hash-transction/Activator-code
+     ID : like  1 2 3 4 ,
+     ID-Telegram : chat id user,
+     Username : ,
+     amount : ,
+     side : TRC20/POL/Utopia,
+     information : Hash-transction/Activator-code,
      status : Pending/Accept/Reject
     }
 ]
@@ -63,12 +76,20 @@ deposit.json
 withdrawal.json
 [
     {
-     ID : like  1 2 3 4 
-     ID-Telegram : chat id user
-     Username :
-     amount
-     side : TRC20/POL/Utopia
-     wallet-code : Hash-transction/Activator-code
+     ID : like  1 2 3 4 ,
+     ID-Telegram : chat id user,
+     Username :  ,
+     amount : ,
+     side : TRC20/POL/Utopia,
+     wallet-code : Hash-transction/Activator-code,
      status : Pending/Accept/Reject
+    }
+]
+Logic.json
+[
+    {
+        win : 50%,
+        lose : 50%,
+        random : True     
     }
 ]
