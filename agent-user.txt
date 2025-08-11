@@ -52,6 +52,10 @@ and for /leaderboard <= [رتبه] /guide<=[راهنما] send is on update
 /support <=[پشتيبانی] edit msg to button to 
 برای ارتباط با پشتیبای از ایدی زیر استفاده کنید
 @TopTasSupportBot
+game logic if win/lose is 50% everything is random (logic.json)
+but win example is 75% and lose 25% all bet is win (in dies stiker must be appered)
+but lose example is 75% and win 25% all bet is lose (in dies stiker must be appered)
+if random is true everything on result game is random like that : lose lose win win win lose lose lose lose abut is false do like that exapmle : lose lose lose lose 
 Json example :
 user.json
 [
