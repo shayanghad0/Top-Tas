@@ -1,7 +1,7 @@
 A python-telegram-bot 
 Database is json
 A dies casino bot
-When user start the Bot must be join on @Topdieshistory @Topdiesbetbot then if join user can accese to bot and information is save on json file
+When user start the Bot must be join on @Topdieshistory @Toptasbet then if join user can accese to bot and information is save on json file
 Have a some inlinebutton and all inline have a command
 /play <= [شروع بازی]
 [واریز] => /deposit [برداشت] => /withdrawal
@@ -19,6 +19,7 @@ if number dies is odd and user select odd bet*2 update a balance
 if false user lose a bet amount
 if number example 3 and user select 3 bet*6 update a balance
 if false user lose bet amount
+# Deposit
 if user click on [واریز] or send /deposit edit massage to this
 چقئر باشه؟؟
 بیشتر از 100/000 هزار تومان باشه :)
@@ -27,12 +28,23 @@ if correct edit msg and button
 [USDT-Pol][USDT-TRC20]
 [Utopia vocher]
 [برگشت]
-
-then if deposit is [USDT-Pol] and [USDT-TRC20] user must send screenshot Transction hash Transction and link Transction
+then if deposit is [USDT-Pol] and [USDT-TRC20] send a this wallet address (wallet.josn) then user must send screenshot Transction hash Transction and link Transction
 but if is [Utopia vocher] user must send Activator code vocher
 and transction createed to deposit.json on status pending
 if transction goes to true balance will update balance + deposit amount
 if reject deposit reject and user must contact to support
+# withdrawal
+if user click on [برداشت] or send /withdrawal edit massage to this
+چقئر باشه؟؟
+بیشتر از 500/000 هزار تومان باشه :)
+[برگشت]
+if correct edit msg and button
+[USDT-Pol][USDT-TRC20]
+[Utopia vocher]
+[برگشت]
+then if withdrawal on  network is [USDT-Pol] and [USDT-TRC20] user must send walle addrress
+but if is [Utopia vocher] dont do anything
+and transction createed to withdrawal.json on status pending then balance will update like this : balance-withdrawal amount
 
 Json example :
 user.json
@@ -93,3 +105,4 @@ Logic.json
         random : True     
     }
 ]
+[{TRC20:890qya3ymf8oqkzfgqa9HKDSU89QWFU8 , POL : werj9yxf78wgo7frgwiarfsjdufgfnxvidb}]
