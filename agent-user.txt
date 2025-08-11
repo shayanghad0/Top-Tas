@@ -49,7 +49,9 @@ if requst crypto [USDT-Pol] and [USDT-TRC20] is compleate send succefull msg and
 and if requst Utopia is compleate send succefull msg and wallet-code
 if reject user must contact with admin
 and for /leaderboard <= [رتبه] /guide<=[راهنما] send is on update
-supoo
+/support <=[پشتيبانی] edit msg to button to 
+برای ارتباط با پشتیبای از ایدی زیر استفاده کنید
+@TopTasSupportBot
 Json example :
 user.json
 [
